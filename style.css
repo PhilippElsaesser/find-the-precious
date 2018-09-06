@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url(http://beta.ems.ladbiblegroup.com/s3/content/808x455/136691515a326752be923192b9444a4b.png);
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/4m/bz/p04mbz2p.jpg);
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: url(https://nerdist.com/wp-content/uploads/2017/12/STAR-WARS-HOLIDAY-SPECIAL.jpg);
+    background-size: cover;
+}
+
+.card:hover .card-img-overlay {
+    visibility: hidden;
+}
