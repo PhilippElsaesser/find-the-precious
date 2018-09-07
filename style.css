@@ -1,8 +1,50 @@
+@font-face {
+    font-family: aniron;
+    src: url("/fonts/anirb___.ttf");
+}
+
+@font-face {
+    font-family: partybusiness;
+    src: url("/fonts/partybusiness.ttf");
+}
+
+
 h2 {
     font-family: aniron;
 }
 
+* {
+    font-family: partybusiness;
+}
 
+
+.navbar {
+    background-color:#f47d41;
+    font-size: 170%;
+}
+
+.navbar-brand {
+    font-size: 150%;
+}
+
+.nav-link {
+    border-left: 2px white solid;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.justify-content-center a {
+    color: black;
+    font-size: 200%;
+    margin: 0 10px;
+    
+}
+
+.justify-content-center a:hover {
+    color: #f47d41;
+}
 
 
 
@@ -26,7 +68,7 @@ h2 {
 }
 
 .carousel-image-1 {
-    background: url(http://beta.ems.ladbiblegroup.com/s3/content/808x455/136691515a326752be923192b9444a4b.png);
+    background: url("images/dark_vador.png");
     background-size: cover;
 }
 
@@ -39,6 +81,16 @@ h2 {
     background-size: cover;
 }
 
+#fellows .card {
+    font-size: 180%;
+}
+
+
+
+.card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .card:hover .card-img-overlay {
     visibility: hidden;
 }
@@ -47,7 +99,5 @@ ul {
   list-style-type: none;
 }
 
-a {
-  color: #fff;
-}
+
 
