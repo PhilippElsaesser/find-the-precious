@@ -19,3 +19,11 @@
 .card:hover .card-img-overlay {
     visibility: hidden;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+}
