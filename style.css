@@ -1,16 +1,16 @@
 @font-face {
     font-family: aniron;
-    src: url("/fonts/anirb___.ttf");
+    src: url("fonts/anirb___.ttf");
 }
 
 @font-face {
     font-family: partybusiness;
-    src: url("/fonts/partybusiness.ttf");
+    src: url("fonts/partybusiness.ttf");
 }
 
 @font-face {
     font-family: 'Tengwar Annatar';
-    src: url("/fonts/tngan.ttf");
+    src: url("fonts/tngan.ttf");
 }
 
 .symbol {
