@@ -17,13 +17,31 @@
     font-family: 'Tengwar Annatar';
     
 }
-h2 {
+h1,h2,h3,h4,h5,h6 {
     font-family: aniron;
 }
 
 * {
     font-family: partybusiness;
 }
+
+.text-warning {
+    color: #f47d41 !important;
+}
+
+.bg-warning {
+  background-color: #f47d41 !important;
+}
+
+#ring .card-body {
+  font-size: 150%;
+}
+
+.card-img-overlay {
+  font-size: 200%;
+}
+
+
 
 
 .navbar {
@@ -44,8 +62,8 @@ h2 {
 
 .justify-content-center a {
     color: black;
-    font-size: 200%;
-    margin: 0 10px;
+    font-size: 150%;
+    margin: 5px 20px;
     
 }
 
@@ -106,5 +124,7 @@ ul {
   list-style-type: none;
 }
 
-
+footer a {
+  color: #fff;
+}
 
