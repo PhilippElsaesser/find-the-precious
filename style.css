@@ -8,7 +8,15 @@
     src: url("/fonts/partybusiness.ttf");
 }
 
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url("/fonts/tngan.ttf");
+}
 
+.symbol {
+    font-family: 'Tengwar Annatar';
+    
+}
 h2 {
     font-family: aniron;
 }
@@ -19,7 +27,6 @@ h2 {
 
 
 .navbar {
-    background-color:#f47d41;
     font-size: 170%;
 }
 
