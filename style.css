@@ -19,6 +19,7 @@
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: aniron;
+    display: inline-block;
 }
 
 * {
@@ -127,4 +128,77 @@ ul {
 footer a {
   color: #fff;
 }
+
+.ringone {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    box-shadow: 1px 1px black;
+    display: inline-block;
+  }
+  
+  .ringtwo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 8px solid yellow;
+    box-shadow: 4px 4px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(1) {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    box-shadow: 0.75px 0.75px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(2) {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 1.5px 1.5px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(3) {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 4.5px solid black;
+    box-shadow: 2.25px 2.25px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(4) {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-shadow: 3px 3px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(5) {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 7.5px solid black;
+    box-shadow: 3.75px 3.75px black;
+    display: inline-block;
+  }
+  
+  .ringthree:nth-child(6) {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 9px solid black;
+    box-shadow: 4.5px 4.5px black;
+    display: inline-block;
+  }
+
 

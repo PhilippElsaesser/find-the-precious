@@ -1,0 +1,25 @@
+@mixin myRing ($size,$color) {
+    height: $size;
+    width: $size;
+    border-radius: 50%;
+    border: $size/10 solid $color;
+    box-shadow: $size/20 $size/20 darken($color, 50);
+  }
+  
+  .ringone {
+    @include myRing(20px, orange);
+    display: inline-block;
+  }
+  
+  .ringtwo {
+    @include myRing(80px, yellow);
+    display: inline-block;
+  }
+  
+  
+    @for $i from 1 through 6 {
+      .ringthree:nth-child(#{$i}) {
+        @include myRing(30px*($i/2), black);
+        display: inline-block;
+      }
+    }
